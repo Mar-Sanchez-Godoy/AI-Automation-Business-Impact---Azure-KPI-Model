@@ -1,100 +1,177 @@
-Económicos ,Datos,,
-ROI ,"0,17",,
-Coste total,20384,,
-Ahorro anual,23920,,"ROI 17% — por cada 1 € invertido, recupera 0,17 €."
-Beneficio total,3536,,
-,,,
-Operativos  / año,Datos operativos,,
-Horas ahorradas,560,,
-Nº consultas sin errores con IA,7680,,
-Consultas con IA,9600,,
-Nº de errores evitados con IA,128,,
-,,,
-Adopción ,Datos adopcion,,
-Empleados activos,80,,
-Tasa adopción (%),40,,
-Uso recurrente (usuarios ≥ X consultas/mes),20,,
-Incidentes de cumplimiento / año,192,,
-,,,
-Riesgo y cumplimiento,Datos riesgo,,
-Cumplimiento de políticas internas (%),98,,
-Bias detectado / año,144,,
-Nivel de explicabilidad (score o %),70,,
-Interacciones auditables /año,98,,
-,,,
-,,,
-,,,
-,,,
-Input,Valores,Descripción,Concepto claro
-Coste herramientas previas (€),10000,Coste anual de herramientas eliminadas,Ahorro generado por retirar software o servicios que dejan de ser necesarios gracias a la implementación de la IA
-Coste por error actual (€),30,Coste de corregir un error interno,"Coste de resolver un fallo generado en un proceso manual: tiempo del empleado, impacto operativo y posibles retrasos"
-Empleados totales,200,Número de empleados total de la empresa,
-Coste hora (€),18,Promedio de coste laboral por hora por empleado,Promedio de coste por hora de un empleado con Salario bruto anual ~31.500 € / 1.750 h
-Tiempo promedio de consultas / mes,5,Promedio de minutos de un empleado por consulta,Promedio de un empleado tarda en atender o resolver una consulta sin ayuda de IA
-Nº consultas por empleado / mes,20,Consultas por empleado por mes,Promedio de consultas que realiza cada empleado en un mes
-,,,
-Tasa de error manual / año,2,Errores en consultas al año por empleado,Porcentaje de consultas que un empleado realiza de forma incorrecta en un año respecto al total de actividades que ejecuta
-Media de horas en consultas / mes,2,Promedio de horas dedicados a resolución de consultas,Promedio de minutos empleados en realizar consultas de forma mensual por cada empleado
-Tiempo total de consultas / mes,333,Tiempo total en horas mensual empleado en consultas,
-Coste hora de consultas / mes,6000,Coste mensual de tiempo en consultas,
-,,,
-Tasa de adopción de IA (%),40,Grado de adopción interna en porcentaje,Porcentaje de personas que permanentemente utilizan IA
-Procesos que pasan por la IA (%),50,Grado de automatización real en porcentaje,Porcentaje de procesos de los empleados que adoptaron consultas gestionados por la IA
-Tasa de error reducido por IA (%),80,Porcentaje de errores evitados al año utilizando IA,Porcentaje de errores que dejan de producirse gracias al uso de la IA
-Coste anual sistema IA (€),150,Coste anual de licencias por empleado,
-Coste de implementación IA (€),6000,Coste inicial del sistema,"Inversión en la solución de IA, incluyendo instalación, configuración, formación y cualquier gasto asociado al despliegue inicial"
-Coste operacion IA (€),2000,Coste por gestión y mantenimiento,"Importe por la gestión del sistema de IA, como supervisión, soporte, ajustes o administración"
-Coste de consulta resuelto con IA (€),0,Coste por consulta procesado con IA,Coste medio asociado a que una consulta sea atendida mediante la solución de IA
-,,,
-Empleados que usan IA,80,Número de empleados que adoptan IA,
-Coste total anual sistema IA (€),12000,Coste anual de licencias total,"Importe anual de mantener activa la solución de IA, cubriendo licencias, mantenimiento, soporte técnico y actualizaciones"
-Nº consultas por empleado usando IA / mes,10,Consultas resueltas a través de la IA,
-Nº consultas total usando IA / mes,800,Número de consultas total de empleados que adoptan IA,
-Nº consultas con errores evitados / año,2,Consultas resueltas por empleado sin errores utilizando IA,
-,,,
-Tasa de reducción de tiempo usando IA (%),70,Porcentaje de tiempo reducido por consulta utilizando la IA,Mide cuánto se reduce el tiempo necesario para resolver una consulta cuando interviene la IA
-Tiempo medio de respuesta de IA,1,Minutos en promedio en analizar y responder consultas la IA,
-Tiempo reducción de consultas usando IA,4,Reducción promedio de minutos de un empleado por consulta,Disminución media del tiempo que un empleado necesita para resolver una consulta cuando utiliza la IA
-Tiempo total de respuestas automatizadas / mes,6,Tiempo en minutos de respuesta por automatización,
-Tiempo medio ahorrado por automatizaciones / mes,44,Tiempo promedio en minutos ahorrado por automatización,
-,,,
-Trazabilidad de respuestas (%),85,Datos rastreables cada interacción generada por la IA,"Porcentaje de datos rastreables generados por la IA. Clave para auditorías, calidad y cumplimiento"
-Explicabilidad (%),70,Justificación de la IA de una respuesta,Porcentaje de justificación de una respuesta. Aumenta la confianza del usuario y reduce riesgos en sectores regulados
-Bias detectado o sesgo / mes,12,Presencia de sesgos en las respuestas de la IA,"Número de veces que el sistema genera respuestas que muestran discriminación, parcialidad o patrones no deseados"
-Incidentes de cumplimiento / mes,16,"IA incumple políticas internas, normativas o requisitos legales",Registra cualquier interacción que pueda suponer un riesgo legal o de compliance. Es un indicador crítico para empresas reguladas
-Logs auditables (%),95,Disponibilidad de registros completos y verificables,"Porcentaje  de datos de los que el sistema guarda un historial claro, exportable y revisable de cada acción."
-,,,
-,,,
-,,,
-,,,
-,,,
-Concepto,Fórmula,,
-Ahorro anual por eficiencia,10080,,
-Ahorro de errores operativos,3840,,
-Ahorro de herramientas eliminadas,10000,,
-Beneficio_total,3536,,
-Coste_total sistema IA (1er año),20384,,
-Coste total sistema IA (2do año),14384,,
-ROI (1er año),"0,17",,
-ROI (2do año),"0,25",,
-"ROI 17% — por cada 1 € invertido, recupera 0,17 €.",,,
-,,,
-,,,
-,,,
-Concepto,Fórmula,,
-Nº de empleados que adoptan IA,80,,
-Nº de consultas actuales / año,19200,,
-Consultas con IA / año,9600,,
-Consultas resueltas sin errores con IA / año,7680,,
-Horas actuales de consulta / año,800,,
-Horas ahorradas por consultas / año ,560,,
-Errores totales por año,160,,
-Errores evitados al usar IA,128,,
-,,,
-,,,
-Riesgo y cumplimiento,Fórmula,,
-Interacciones auditables,9120,,
-Incidentes de cumplimiento / año,192,,
-Bias detectado mensual,144,,
-Nivel de explicabilidad (%),70,,
-Cumplimiento de políticas internas (%),98,,
+Financial,Data,,
+
+ROI,"0.17",,
+
+Total cost,20384,,
+
+Annual savings,23920,,"ROI 17% — for every €1 invested, €0.17 is recovered."
+
+Total benefit,3536,,
+
+
+
+Operations / Year,Operational Data,,
+
+Hours saved,560,,
+
+Number of error-free queries with AI,7680,,
+
+Queries with AI,9600,,
+
+Number of errors avoided with AI,128,,
+
+
+
+Adoption,Adoption Data,,
+
+Active employees,80,,
+
+Adoption rate (%),40,,
+
+Recurring usage (users ≥ X queries/month),20,,
+
+Compliance incidents / year,192,,
+
+
+
+Risk and Compliance,Risk Data,,
+
+Compliance with internal policies (%),98,,
+
+Bias detected / year,144,,
+
+Explainability level (score or %),70,,
+
+Auditable interactions / year,98,,
+
+
+Input,Values,Description,Clear Concept
+
+Previous tools cost (€),10000,Annual cost of discontinued tools,Savings generated by removing software or services that are no longer needed thanks to AI implementation
+
+Current cost per error (€),30,Cost of correcting an internal error,"Cost of resolving a failure generated in a manual process: employee time, operational impact, and possible delays"
+
+Total employees,200,Total number of company employees,
+
+Hourly cost (€),18,Average labor cost per employee hour,Average hourly employee cost based on a gross annual salary of approximately €31,500 / 1,750 h
+
+Average query time / month,5,Average employee minutes per query,Average time an employee takes to handle or resolve a query without AI assistance
+
+Number of queries per employee / month,20,Queries per employee per month,Average number of queries handled by an employee in one month
+
+
+
+Manual error rate / year,2,Errors in queries per employee per year,Percentage of queries performed incorrectly in a year compared to total activities carried out
+
+Average hours on queries / month,2,Average hours spent resolving queries,Average monthly time dedicated to handling queries by each employee
+
+Total query time / month,333,Total monthly hours spent on queries,
+
+Query labor cost / month,6000,Monthly cost of time spent on queries,
+
+
+
+AI adoption rate (%),40,Internal adoption level in percentage,Percentage of people who consistently use AI
+
+Processes handled through AI (%),50,Actual automation level in percentage,Percentage of employee processes managed through AI
+
+Error reduction rate with AI (%),80,Percentage of errors avoided per year using AI,Percentage of errors eliminated thanks to AI usage
+
+Annual AI system cost (€),150,Annual license cost per employee,
+
+AI implementation cost (€),6000,Initial system cost,"Investment in the AI solution, including installation, configuration, training, and any deployment-related expenses"
+
+AI operating cost (€),2000,Management and maintenance cost,"Cost of managing the system, including monitoring, support, adjustments, and administration"
+
+Cost per query resolved with AI (€),0,Cost per query processed by AI,Average cost associated with a query being handled by the AI solution
+
+
+
+Employees using AI,80,Number of employees adopting AI,
+
+Total annual AI system cost (€),12000,Total annual licensing cost,"Annual cost of keeping the AI solution active, including licenses, maintenance, technical support, and updates"
+
+Number of queries per employee using AI / month,10,Queries resolved through AI,
+
+Total queries using AI / month,800,Total number of queries from employees adopting AI,
+
+Number of queries with errors avoided / year,2,Queries resolved error-free per employee using AI,
+
+
+
+Time reduction rate with AI (%),70,Percentage of time reduced per query using AI,Measures how much time is reduced when AI is involved in resolving a query
+
+Average AI response time,1,Average minutes required for AI to analyze and answer queries,
+
+Query resolution time reduction using AI,4,Average minutes saved per query,Average reduction in employee time needed to resolve a query with AI
+
+Total automated response time / month,6,Response time in minutes through automation,
+
+Average time saved through automations / month,44,Average minutes saved per automation,
+
+
+
+Response traceability (%),85,Traceable data for every interaction generated by AI,"Percentage of AI-generated data that can be traced. Key for audits, quality, and compliance"
+
+Explainability (%),70,AI justification of a response,Percentage of justification behind a response. Increases user trust and reduces risks in regulated sectors
+
+Bias detected / month,12,Presence of bias in AI responses,"Number of times the system generates responses showing discrimination, partiality, or undesired patterns"
+
+Compliance incidents / month,16,"AI breaches internal policies, regulations, or legal requirements",Records any interaction that may represent a legal or compliance risk. A critical indicator for regulated companies
+
+Auditable logs (%),95,Availability of complete and verifiable records,"Percentage of data for which the system keeps a clear, exportable, and reviewable history of every action"
+
+
+
+Concept,Formula,,
+
+Annual efficiency savings,10080,,
+
+Operational error savings,3840,,
+
+Savings from discontinued tools,10000,,
+
+Total_benefit,3536,,
+
+AI system Total_cost (1st year),20384,,
+
+AI system Total_cost (2nd year),14384,,
+
+ROI (1st year),"0.17",,
+
+ROI (2nd year),"0.25",,
+
+"ROI 17% — for every €1 invested, €0.17 is recovered.",,,
+
+
+Concept,Formula,,
+
+Number of employees adopting AI,80,,
+
+Current queries / year,19200,,
+
+Queries with AI / year,9600,,
+
+Error-free queries with AI / year,7680,,
+
+Current query hours / year,800,,
+
+Hours saved from queries / year,560,,
+
+Total errors per year,160,,
+
+Errors avoided using AI,128,,
+
+
+
+Risk and Compliance,Formula,,
+
+Auditable interactions,9120,,
+
+Compliance incidents / year,192,,
+
+Monthly bias detected,144,,
+
+Explainability level (%),70,,
+
+Compliance with internal policies (%),98,,
