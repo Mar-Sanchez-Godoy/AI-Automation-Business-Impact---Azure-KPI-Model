@@ -1,4 +1,4 @@
-# Automatización con Azure - AI Microsoft
+# Automatización con Azure - IA Microsoft
 
 ## Impacto de la Implementación de automatización de IA en una Empresa de 200+ Empleados
 
