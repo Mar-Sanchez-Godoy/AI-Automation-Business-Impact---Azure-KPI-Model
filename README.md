@@ -14,12 +14,12 @@ KPIs
 
 Analysed Data
 <p align="left">
-<img src="Images/Analysed Data.png" width="850">
+<img src="Images/Analysed Data.png" width="550">
 </p>
 
 Calculations
 <p align="left">
-<img src="Images/Calculations.png" width="850">
+<img src="Images/Calculations.png" width="650">
 </p>
 
 
