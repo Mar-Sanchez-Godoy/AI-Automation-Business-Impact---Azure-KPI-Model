@@ -38,19 +38,18 @@ Build a professional dashboard in Google Looker Studio for executive reporting.
 
 ### 1. Economic KPIs
 
-- Savings from avoided errors:
-- Savings from eliminated tools:
-- Savings from efficiency (time saved):
-- Total benefit:
-- Total cost:
-- ROI:
+- ROI: 0.17 (17%)
+- Annual Savings: €23.920
+- Total Cost: €20.384
+- Total Benefit: €3.536
 
 ### 2. Operational KPIs
 
-- AI‑resolved queries per month:
-- Hours saved per month:
-- Automated processes: 50%
-- Average handling time per query: 5 min
+- Time Saved: 560 h/year
+- AI-assisted Queries: 9.600/year
+- Error-free Queries Rate: 80% (7.680 / 9.600)
+- Errors Prevented: 128/year
+- Process Automation Rate: 50%
 
 ### 3. Adoption KPIs
 
@@ -60,11 +59,10 @@ Build a professional dashboard in Google Looker Studio for executive reporting.
 
 ### 4. Risk & Compliance KPIs
 
-- Auditable interactions: 95%
+- Auditable interactions: 98%
 - Compliance incidents: 1 per quarter
-- Detected biases: 2 per month
-- Explainability: 70%
-- Traceability: 85%
+- Detected biases: 144/year
+- Explainability Level: 70%
 
 ### 🗂️ Repository Structure
 
@@ -75,14 +73,14 @@ The project currently contains three main components:
 Folder containing the dataset used for KPI calculations and dashboard modeling.
 This is the source for all economic, operational, adoption, and compliance metrics.
 
-2. Screenshots/
+2. Images/
 
 Folder with all dashboard and data‑model images.
 
 Used inside the README to visually document:
-- Initial KPIs
-- Raw data sample
-- Final processed dataset
+- KPIs
+- Calculations
+- Analysed Data
 
 3. README.md
 
