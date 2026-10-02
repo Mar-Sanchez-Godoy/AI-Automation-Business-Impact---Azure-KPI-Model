@@ -19,7 +19,7 @@ Analysed Data
 
 Calculations
 <p align="left">
-<img src="Images/Calculations.png" width="650">
+<img src="Images/Calculations.png" width="550">
 </p>
 
 
