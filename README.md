@@ -12,11 +12,6 @@ KPIs
 <img src="Screenshots/Resultados.png" width="450">
 </p>
 
-Locker Studio Google
-<p align="left">
-<img src="Screenshots/KPIs - Locker Studio.png" width="450">
-</p>
-
 Data
 <p align="left">
 <img src="Screenshots/Datos utilizados.png" width="450">
