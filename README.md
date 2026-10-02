@@ -9,17 +9,17 @@ This project analyzes the economic, operational, adoption, and compliance impact
 
 KPIs
 <p align="left">
-<img src="Images/KPIs.png" width="450">
+<img src="Images/KPIs.png" width="850">
 </p>
 
 Analysed Data
 <p align="left">
-<img src="Images/Analysed Data.png" width="450">
+<img src="Images/Analysed Data.png" width="850">
 </p>
 
 Calculations
 <p align="left">
-<img src="Images/Calculations.png" width="450">
+<img src="Images/Calculations.png" width="850">
 </p>
 
 
